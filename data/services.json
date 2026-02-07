@@ -1,0 +1,92 @@
+[
+    {
+        "id": "s1",
+        "name": "Custom Portrait Painting",
+        "type": "commission",
+        "category": "portrait",
+        "artistId": "a2",
+        "artistName": "Rajesh Kumar",
+        "priceRange": "5000-15000",
+        "description": "Realistic portrait in oil or acrylic. Based on your photographs.",
+        "turnaround": "2-4 weeks",
+        "images": [
+            "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80"
+        ]
+    },
+    {
+        "id": "s2",
+        "name": "Wall Mural Design & Execution",
+        "type": "commission",
+        "category": "mural",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "priceRange": "25000-100000",
+        "description": "Custom wall mural for homes, offices, or commercial spaces.",
+        "turnaround": "4-8 weeks",
+        "images": [
+            "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80"
+        ]
+    },
+    {
+        "id": "s3",
+        "name": "Limited Edition Signed Print",
+        "type": "limited-edition",
+        "category": "print",
+        "artistId": "a3",
+        "artistName": "Priya Singh",
+        "price": 8500,
+        "description": "Archival giclée print, numbered and signed. Includes certificate of authenticity.",
+        "editionCount": "15/25",
+        "images": [
+            "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80"
+        ]
+    },
+    {
+        "id": "s4",
+        "name": "Brand Identity Design Package",
+        "type": "art-service",
+        "category": "branding",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "priceRange": "15000-50000",
+        "description": "Complete brand identity including logo, color palette, typography, and brand guidelines.",
+        "turnaround": "3-6 weeks",
+        "images": [
+            "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80"
+        ]
+    },
+    {
+        "id": "s5",
+        "name": "Watercolor Techniques Masterclass",
+        "type": "educational",
+        "category": "workshop",
+        "artistId": "a3",
+        "artistName": "Priya Singh",
+        "price": 3500,
+        "description": "2-day intensive workshop covering watercolor fundamentals and advanced techniques.",
+        "date": "March 15-16, 2026",
+        "duration": "2 days, 10 AM - 4 PM",
+        "mode": "Offline - Mumbai Studio",
+        "seatsAvailable": 8,
+        "images": [
+            "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80"
+        ]
+    },
+    {
+        "id": "s6",
+        "name": "Digital Art with Procreate",
+        "type": "educational",
+        "category": "online-course",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "price": 4999,
+        "description": "6-week online course on digital illustration using Procreate. Includes lifetime access.",
+        "date": "Starts March 20, 2026",
+        "duration": "6 weeks",
+        "mode": "Online",
+        "seatsAvailable": 25,
+        "images": [
+            "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80"
+        ]
+    }
+]

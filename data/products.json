@@ -1,0 +1,129 @@
+[
+    {
+        "id": "p1",
+        "name": "Abstract Harmony",
+        "type": "physical",
+        "category": "original-artworks",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "price": 12000,
+        "images": [
+            "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&q=80",
+            "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=800&q=80"
+        ],
+        "description": "Acrylic on canvas, 24x36 inches. A vibrant exploration of color and form inspired by urban architecture.",
+        "shipping": "₹500 within India, ₹2000 international",
+        "customizable": true,
+        "inStock": true
+    },
+    {
+        "id": "p2",
+        "name": "Terracotta Vase Set",
+        "type": "physical",
+        "category": "handcrafted",
+        "artistId": "a2",
+        "artistName": "Rajesh Kumar",
+        "price": 3500,
+        "images": [
+            "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?w=800&q=80"
+        ],
+        "description": "Hand-crafted terracotta vase set of 3, traditional techniques",
+        "shipping": "₹200 within India",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "p3",
+        "name": "Minimalist Ink Series - Limited Print",
+        "type": "physical",
+        "category": "prints",
+        "artistId": "a3",
+        "artistName": "Priya Singh",
+        "price": 2500,
+        "images": [
+            "https://images.unsplash.com/photo-1547826039-bfc35e0f1ea8?w=800&q=80"
+        ],
+        "description": "Giclée print on archival paper, 12x18 inches. Edition of 50.",
+        "shipping": "₹150 within India",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "m1",
+        "name": "Artistic Quote T-Shirt",
+        "type": "merchandise",
+        "category": "apparel",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "price": 899,
+        "images": [
+            "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80"
+        ],
+        "description": "Premium cotton t-shirt with screen-printed art quote. Available in S-XL.",
+        "shipping": "₹100 within India",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "m2",
+        "name": "Artisan Tote Bag",
+        "type": "merchandise",
+        "category": "bags",
+        "artistId": "a2",
+        "artistName": "Rajesh Kumar",
+        "price": 699,
+        "images": [
+            "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=800&q=80"
+        ],
+        "description": "Canvas tote bag featuring original artwork print. Eco-friendly and durable.",
+        "shipping": "₹100 within India",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "m3",
+        "name": "Ceramic Art Mug",
+        "type": "merchandise",
+        "category": "drinkware",
+        "artistId": "a3",
+        "artistName": "Priya Singh",
+        "price": 499,
+        "images": [
+            "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=800&q=80"
+        ],
+        "description": "11oz ceramic mug with vibrant art print. Dishwasher safe.",
+        "shipping": "₹80 within India",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "d1",
+        "name": "Digital Illustration Pack - Nature",
+        "type": "digital",
+        "category": "illustrations",
+        "artistId": "a1",
+        "artistName": "Ananya Mehta",
+        "price": 1999,
+        "images": [
+            "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&q=80"
+        ],
+        "description": "20 high-resolution digital illustrations in PNG and AI formats. Commercial license included.",
+        "customizable": false,
+        "inStock": true
+    },
+    {
+        "id": "d2",
+        "name": "Watercolor Texture Bundle",
+        "type": "digital",
+        "category": "textures",
+        "artistId": "a3",
+        "artistName": "Priya Singh",
+        "price": 1499,
+        "images": [
+            "https://images.unsplash.com/photo-1634979149798-e9a118734e93?w=800&q=80"
+        ],
+        "description": "50 seamless watercolor textures. 4K resolution. Personal and commercial use.",
+        "customizable": false,
+        "inStock": true
+    }
+]
