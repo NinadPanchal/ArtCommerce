@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Header() {
@@ -12,9 +13,14 @@ export default function Header() {
                 <div className="flex justify-between items-center h-20">
                     {/* Logo */}
                     <Link href="/" className="flex items-center">
-                        <h1 className="text-2xl font-display font-bold text-primary">
-                            ArtCommerce
-                        </h1>
+                        <Image
+                            src="/logo.png"
+                            alt="ArtVPP - Art Commerce Platform"
+                            width={180}
+                            height={60}
+                            className="h-12 w-auto object-contain"
+                            priority
+                        />
                     </Link>
 
                     {/* Desktop Navigation */}

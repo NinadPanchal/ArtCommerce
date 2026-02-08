@@ -1,13 +1,21 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import Button from '@/components/ui/Button'
 
 export default function Hero() {
     return (
         <section className="relative bg-gradient-to-br from-gray-50 to-gray-100 py-20 md:py-32">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <h1 className="text-5xl md:text-7xl font-display font-bold text-primary mb-6">
-                    ArtCommerce
-                </h1>
+                <div className="flex justify-center mb-6">
+                    <Image
+                        src="/logo.png"
+                        alt="ArtVPP - Art Commerce Platform"
+                        width={400}
+                        height={120}
+                        className="h-20 md:h-28 w-auto object-contain"
+                        priority
+                    />
+                </div>
                 <p className="text-2xl md:text-3xl text-secondary mb-4 font-light">
                     Buy. Commission. Create.
                 </p>
