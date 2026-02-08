@@ -20,6 +20,10 @@ export const metadata: Metadata = {
     title: 'ArtCommerce - Buy. Commission. Create.',
     description: 'Digital Trade of Creative Products and Services. Purchase physical art, digital art, merchandise, commission artists, and book educational workshops.',
     keywords: ['art marketplace', 'digital art', 'commission art', 'art workshops', 'creative services'],
+    icons: {
+        icon: '/favicon.ico',
+        apple: '/icon.png',
+    },
 }
 
 export default function RootLayout({
