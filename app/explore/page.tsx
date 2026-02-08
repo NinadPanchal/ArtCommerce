@@ -72,8 +72,8 @@ export default function ExplorePage() {
                     <button
                         onClick={() => setViewMode('all')}
                         className={`px-4 py-2 rounded-sm transition-colors ${viewMode === 'all'
-                                ? 'bg-primary text-white'
-                                : 'bg-white text-text border border-border hover:bg-gray-50'
+                            ? 'bg-primary text-white'
+                            : 'bg-white text-text border border-border hover:bg-gray-50'
                             }`}
                     >
                         All ({products.length + services.length})
@@ -81,8 +81,8 @@ export default function ExplorePage() {
                     <button
                         onClick={() => setViewMode('products')}
                         className={`px-4 py-2 rounded-sm transition-colors ${viewMode === 'products'
-                                ? 'bg-primary text-white'
-                                : 'bg-white text-text border border-border hover:bg-gray-50'
+                            ? 'bg-primary text-white'
+                            : 'bg-white text-text border border-border hover:bg-gray-50'
                             }`}
                     >
                         Products ({products.length})
@@ -90,8 +90,8 @@ export default function ExplorePage() {
                     <button
                         onClick={() => setViewMode('services')}
                         className={`px-4 py-2 rounded-sm transition-colors ${viewMode === 'services'
-                                ? 'bg-primary text-white'
-                                : 'bg-white text-text border border-border hover:bg-gray-50'
+                            ? 'bg-primary text-white'
+                            : 'bg-white text-text border border-border hover:bg-gray-50'
                             }`}
                     >
                         Services ({services.length})
@@ -128,7 +128,7 @@ export default function ExplorePage() {
 
                 {filteredProducts.length === 0 && filteredServices.length === 0 && (
                     <div className="text-center py-20">
-                        <p className="text-xl text-text-muted">No results found for "{searchTerm}"</p>
+                        <p className="text-xl text-text-muted">No results found for &quot;{searchTerm}&quot;</p>
                     </div>
                 )}
             </div>

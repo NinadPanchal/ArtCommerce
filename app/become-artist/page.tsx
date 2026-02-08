@@ -62,7 +62,7 @@ export default function BecomeArtistPage() {
                                 className="w-20 h-20 rounded-full mx-auto mb-4"
                             />
                             <p className="text-center text-text-muted italic mb-2">
-                                "ArtCommerce helped me turn my passion into a full-time career. I've sold over 100 pieces!"
+                                &quot;ArtCommerce helped me turn my passion into a full-time career. I&apos;ve sold over 100 pieces!&quot;
                             </p>
                             <p className="text-center font-semibold">- Ananya M.</p>
                         </div>
@@ -74,7 +74,7 @@ export default function BecomeArtistPage() {
                                 className="w-20 h-20 rounded-full mx-auto mb-4"
                             />
                             <p className="text-center text-text-muted italic mb-2">
-                                "The commission system works great for my custom portrait business. Highly recommend!"
+                                &quot;The commission system works great for my custom portrait business. Highly recommend!&quot;
                             </p>
                             <p className="text-center font-semibold">- Rajesh K.</p>
                         </div>
@@ -86,7 +86,7 @@ export default function BecomeArtistPage() {
                                 className="w-20 h-20 rounded-full mx-auto mb-4"
                             />
                             <p className="text-center text-text-muted italic mb-2">
-                                "Best platform for teaching workshops. The booking system is seamless and professional."
+                                &quot;Best platform for teaching workshops. The booking system is seamless and professional.&quot;
                             </p>
                             <p className="text-center font-semibold">- Priya S.</p>
                         </div>
@@ -97,7 +97,7 @@ export default function BecomeArtistPage() {
                 <div className="max-w-2xl mx-auto bg-white rounded-sm shadow-sm p-8">
                     <h2 className="text-3xl font-display font-bold mb-6">Apply Now</h2>
                     <p className="text-text-muted mb-8">
-                        Fill out the form below and we'll review your application. You'll hear from us within 2-3 business days.
+                        Fill out the form below and we&apos;ll review your application. You&apos;ll hear from us within 2-3 business days.
                     </p>
 
                     <form className="space-y-4">
@@ -157,7 +157,7 @@ export default function BecomeArtistPage() {
                         <label className="flex items-start">
                             <input type="checkbox" className="mr-2 mt-1" required />
                             <span className="text-sm text-text-muted">
-                                I confirm that all work submitted is my original creation and I agree to ArtCommerce's seller terms
+                                I confirm that all work submitted is my original creation and I agree to ArtCommerce&apos;s seller terms
                             </span>
                         </label>
 
