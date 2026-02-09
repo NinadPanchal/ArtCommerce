@@ -1,27 +1,11 @@
-export default function CartPage() {
-    // Mock cart items - in production, this would come from state management
-    const cartItems = [
-        {
-            id: '1',
-            name: 'Abstract Harmony',
-            artist: 'Ananya Mehta',
-            price: 12000,
-            quantity: 1,
-            image: 'https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=200&q=80',
-            type: 'physical',
-        },
-        {
-            id: '2',
-            name: 'Digital Illustration Pack - Nature',
-            artist: 'Ananya Mehta',
-            price: 1999,
-            quantity: 1,
-            image: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=200&q=80',
-            type: 'digital',
-        },
-    ]
+'use client'
 
-    const subtotal = cartItems.reduce((sum, item) => sum + item.price * item.quantity, 0)
+import { useCart } from '@/context/CartContext'
+import Link from 'next/link'
+
+export default function CartPage() {
+    const { items: cartItems, updateQuantity, removeItem, subtotal } = useCart()
+
     const shipping = cartItems.some(item => item.type === 'physical') ? 500 : 0
     const total = subtotal + shipping
 
@@ -56,11 +40,26 @@ export default function CartPage() {
                                         <div className="text-right">
                                             <p className="font-bold text-lg mb-2">₹{item.price.toLocaleString()}</p>
                                             <div className="flex items-center gap-2 mb-2">
-                                                <button className="px-2 py-1 border border-border rounded-sm hover:bg-gray-50">-</button>
+                                                <button
+                                                    onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                                                    className="px-2 py-1 border border-border rounded-sm hover:bg-gray-50"
+                                                >
+                                                    -
+                                                </button>
                                                 <span className="px-4">{item.quantity}</span>
-                                                <button className="px-2 py-1 border border-border rounded-sm hover:bg-gray-50">+</button>
+                                                <button
+                                                    onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                                                    className="px-2 py-1 border border-border rounded-sm hover:bg-gray-50"
+                                                >
+                                                    +
+                                                </button>
                                             </div>
-                                            <button className="text-sm text-red-600 hover:underline">Remove</button>
+                                            <button
+                                                onClick={() => removeItem(item.id)}
+                                                className="text-sm text-red-600 hover:underline"
+                                            >
+                                                Remove
+                                            </button>
                                         </div>
                                     </div>
                                 ))}
@@ -100,9 +99,12 @@ export default function CartPage() {
                                 <button className="w-full bg-primary text-white py-3 rounded-sm font-semibold hover:bg-opacity-90 transition-colors mb-3">
                                     Proceed to Checkout
                                 </button>
-                                <button className="w-full border border-border py-3 rounded-sm font-semibold hover:bg-gray-50 transition-colors">
+                                <Link
+                                    href="/explore"
+                                    className="block w-full border border-border py-3 rounded-sm font-semibold hover:bg-gray-50 transition-colors text-center"
+                                >
                                     Continue Shopping
-                                </button>
+                                </Link>
                             </div>
                         </div>
                     </div>

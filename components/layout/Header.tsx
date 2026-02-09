@@ -3,9 +3,11 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useState } from 'react'
+import { useCart } from '@/context/CartContext'
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+    const { itemCount } = useCart()
 
     return (
         <header className="sticky top-0 z-40 bg-white border-b border-border">
@@ -81,7 +83,7 @@ export default function Header() {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                             </svg>
                             <span className="absolute -top-2 -right-2 bg-accent text-primary text-xs w-5 h-5 rounded-full flex items-center justify-center font-bold">
-                                0
+                                {itemCount}
                             </span>
                         </Link>
 
